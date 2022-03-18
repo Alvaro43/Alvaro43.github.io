@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <title>Ejercicio tablas</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Horario con html">
+        <meta name="keywords" content="tablas">
+        <!--link rel="stylesheet" href="estilos.css"-->
+       
+
+      <style>
+      
+        tr:nth-child(odd):hover{
+            background-color: grey;
+            color: white;
+       }
+       tr:nth-child(even):hover{
+            background-color: red;
+            color: white;
+       }
+
+         </style>
+
+
+
+
+    </head>
+
+    
+     <body>
+         
+        <h1>Ficha t&eacute;cnica coches</h1>
+        <table border="1px">
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>KM</th>
+            </tr>
+            <tr>
+                <td>Renault</td>
+                <td>Clio</td>
+                <td>Negro</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>Peugeot</td>
+                <td>407</td>
+                <td>Dorado</td>
+                <td>161000</td>
+            </tr>
+            <tr>
+                <td>Seat</td>
+                <td>Panda</td>
+                <td>Morado</td>
+                <td>1000</td>
+            </tr>
+        </table>
+       
+  
+         <h1>Ejercicio tabla Horario</h1>
+        <table border=1>
+               <tr>
+                   <th>Lunes</th>
+                   <th>Martes</th>
+                   <th>Miércoles</th>
+                   <th>Jueves</th>
+                   <th> Viernes</th>
+               
+               </tr>
+               <tr>
+                   <td>PAR</td>
+                   <td>ISO</td>
+                   <td>GBD</td>
+                   <td>GBD</td>
+                   <td>LM</td>
+               </tr>
+
+               <tr>
+                <td>PAR</td>
+                <td>ISO</td>
+                <td>GBD</td>
+                <td>GBD</td>
+                <td>LM</td>
+                
+            </tr>
+
+            <tr>
+                <td>FOL</td>
+                <td>GBD</td>
+                <td>PAR</td>
+                <td>FOL</td>
+                <td>PAR</td>
+                
+            </tr>
+
+            <tr>
+                <td>FOL</td>
+                <td>GBD</td>
+                <td>PAR</td>
+                <td>FOL</td>
+                <td>PAR</td>
+                
+            </tr>
+
+            <tr>
+                <td>FOL</td>
+                <td>GBD</td>
+                <td>PAR</td>
+                <td>ISO</td>
+                <td>PAR</td>
+                
+            </tr>
+
+            <tr>
+                <td>ISO</td>
+                <td class="1">LM</td>
+                <td>FH</td>
+                <td>ISO</td>
+                <td>ISO</td>
+               
+            </tr>
+
+            <tr>
+                <td>ISO</td>
+                <td class="1">LM</td>
+                <td>FH</td>
+                <td>FH</td>
+                <td>ISO</td>
+             
+            </tr>
+
+  </table>
+
+
+
+
+  <!DOCTYPE html>
+  <html lang=es>
+      <head>
+          <title>Tabla: Horario</title>
+          <meta charset="UTF-8">
+          <meta name="description" content="Horario con html">
+          <meta name="keywords" content="tablas">
+      </head>
+  
+      <body>
+          <h1>Ejercicio: Tabla Numeros 1 (Colspan)</h1>
+          <br>
+          <table border="1px">
+              <tr>
+                  <td colspan="3">Uno</td>
+                  <td>Dos</td>
+                  <td>Tres</td>
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+              </tr>
+              <tr>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+              </tr>
+              <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+              </tr>
+              <tr>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+              </tr>
+          </table>
+  
+          <h2>Ejercicio tablas 2 (Rowspan)</h2>
+          <table border="1px">
+              <tr>
+                  <td colspan="3">uno</td>
+                  <td>dos</td>
+                  <td>tres</td>
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td rowspan="4">8</td>
+              </tr>
+              <tr>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  
+              </tr>
+              <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  
+              </tr>
+              <tr>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  
+              </tr>
+          </table>
+          <h2>Ejercicio tabla 3 (Colspan y Rowspan)</h2>
+          <table border="1">
+              <tr>
+                  <tr>
+                      <td>uno</td>
+                      <td></td>
+                      <td></td>
+                      <td>dos</td>
+                      <td>tres</td>
+                  </tr>
+              </tr>
+              <tr>
+                  <td colspan="2" rowspan="2">cuatro</td>
+                  <td>seis</td>
+                  <td>siete</td>
+                  <td>ocho</td>
+              </tr>
+              <tr>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+              </tr>
+              <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+              </tr>
+              <tr>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+              </tr>
+          </table>
+          </div>
+          <p>
+          <footer>
+              &copy; Todos los derechos...
+          </p>
+              <br>
+              <a href="mailto:a21camaal@iesgrancapitan.org">Correo electr&oacute;nico de contacto</a>
+                  <br>
+              <a href="tel:+34957379710">Tel&eacute;fono de contacto</a>
+          </footer>
+      </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+        </table>
+
+
+
+
+
+    </body>
+
+    </html>
