@@ -1,0 +1,31 @@
+body{ 
+
+    background-color:#c9c2c0;
+    font-family: 'Segoe UI';
+}
+
+.menu{list-style: none;
+  padding: 0px;
+background: rgb(170, 10, 98);
+width: 90%;
+max-width: 624px;
+margin: auto;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li a:hover {
+    background: rgb(172, 171, 171);
+}
