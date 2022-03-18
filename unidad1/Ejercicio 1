@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Estructura y contenido</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Estructura y Contenido">
+		<meta name="keywords" content="Estructura, Contenido, Resuelto">
+	</head>
+	<body>
+		<header>
+		<h1 id="top">Estructura y Contenido</h1>
+		</header>
+		<main>
+			<section>
+				<article>
+          <hr>
+         
+          <h3>EJERCICIO 1</h3>
+          <p><b>Añade la etiqueta  &lt;abbr&gt;  al título 1ºDAW. ¿Para qué se utiliza?</b></p>
+          <h3>SOLUCION</h3>
+          <p>Lo que ocurre al añadir la etiqueta &lt;abbr&gt; es que una vez pones el ratón sobre 1ºASIR , aparece el nombre completo que es ''1ºAdministración de Sistemas Informáticos en Red''. </p>
+          </div>
+				</article>
+        <article>
+          <hr>
+         
+          <h3>EJERCICIO 2</h3>
+          <p><b>Diferencias entre los elementos &lt;header&gt; y &lt;h1&gt;</b></p>
+          <h3>SOLUCION</h3>
+          <p>Las diferencias entre el header y el h1 es, el header es una ayuda al entrar en la pagina, y el h1 es solo un
+          un formato de mostrar el titulo en el que se utilice</p>
+          </div>
+				</article>
+        <article>
+          <hr>
+         
+          <h3>EJERCICIO 3</h3>
+          <p><b>Escribe una pequeña página donde utilices los elementos &lt;div&gt; y &lt;span&gt;</b></p>
+          <h3>SOLUCION</h3>
+          <p>Con la etiqueta div se cambia el color del fondo de la pagina Web</p>
+          <p>Con la etiqueta span se cambia el color de la propia <span style="color:blue">palabra</span></p>
+          </div>
+				</article>
+        <article>
+          <hr>
+        
+          <h3>EJERCICIO 4</h3>
+          <p><b>Crea dos párrafos con el mismo id y prueba el código en CodePen. ¿Qué resultado obtienes? Valida el código en W3C. ¿Qué resultado obtienes?</b></p>
+          <h3>SOLUCION</h3>
+          <p>En W3C te dice que los dos ides son un error.</p>
+          </div>
+				</article>
+        <article>
+          <hr>
+          
+          <h3>EJERCICIO 5</h3>
+          <p><b>Clasificas las etiquetas &lt;i&gt;, &lt;b&gt;, &lt;strong&gt;, &lt;em&gt; en etiquetas de estilo o etiquetas semánticas.</b></p>
+          <h3>SOLUCION</h3>
+          <p>&lt;i&gt; Esta etiqueta hace que la frase donde sea utilizada este en <i>Cursiva</i></p>
+          <p>&lt;b&gt; Esta etiqueta marca en <b>Negrita</b></p>
+          <p>&lt;strong&gt; Esta etiquta aparte de marcar en negrita le da <strong>peso</strong></p>
+          <p>&lt;em&gt; Esta etiqueta hace que <em>enfatice el texto</em></p>
+				</article>
+        <article>
+          <hr>
+          
+          <h3>EJERCICIO 6</h3>
+          <p><b>Trabaja con los siguientes documentos HTML</b></p>
+          <ol type="A">
+            <li>Completa el documento y añade al párrafo un tooltip “Aprendiendo lenguajes de marcas”. Utiliza la extensión para desarrolladores para validar el documento.<a target="_blank" href="unidad3/apartadoA.html">Apartado A</a> </li>
+            <li>Completa el documento y añade como cabecera Madrid y una línea horizontal separándola.<a target="_blank" href="unidad3/apartadoB.html">Apartado B</a> </li>
+            <li>Valida, corrige y vuelve a validar el siguiente documento.<a target="_blank" href="unidad3/apartadoC.html">Apartado C</a> </li>
+            <li>Crea un documento HTML cuya visualización en el navegador sea: <a target="_blank" href="unidad3/apartadoD.html">Apartado D</a> </li>
+            <li>Completa el documento teniendo en cuenta que x es una variable.<a target="_blank" href="unidad3/apartadoE.html">Apartado E</a> </li>
+            <li>Crea un documento HTML cuya visualización en el navegador sea:<a target="_blank" href="unidad3/apartadoF.html">Apartado F</a> </li>
+          </ol>
+				</article>
+			</section>
+			<aside>
+        <hr>
+			
+			</aside>
+		</main>
+		<footer>
+		
+      <p>&copy;Todos los derechos....</p>
+      <p>a21camaal@iesgranpaitan.org</p>
+		</footer>
+	</body>
+</html>
